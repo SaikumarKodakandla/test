@@ -25,6 +25,7 @@ print ('nameuser: ', nameuser)
 print ('cmntuser: ', cmntuser)
 print ('quoteuser: ', quoteuser)
 
+print i for i in datec
 ##Not Getting data for below
 rateuser = [i for i in tree.xpath('//span[@class="ui_bubble_rating"]/text()')]
 print ('rateuser: ', rateuser)
